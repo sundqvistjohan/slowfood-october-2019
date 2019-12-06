@@ -21,6 +21,7 @@ group :development, :test do
   gem 'webdrivers', '3.8.0'
   gem 'selenium-webdriver'
   gem 'capybara'
+  gem 'coveralls', require: false
 end
 
 group :development do
