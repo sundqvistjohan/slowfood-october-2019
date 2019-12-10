@@ -1,5 +1,7 @@
 class ProductsController < ApplicationController
   def index
-    @products = Product.all
+    @starters = Product.where(category: 'starter')
+    @main_courses = Product.where(category: 'main')
+    @desserts = Product.where(category: 'dessert')
   end
 end
