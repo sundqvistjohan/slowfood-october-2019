@@ -6,12 +6,12 @@ Feature: User can see products
   Background:
 
     Given the following products exist:
-      | name          | desc          | price |
+      | name          | description   | price |
       | Starter 1     | First course  | 99    |
       | Main Course 1 | Second course | 150   |
-      | Dessert 1      | Last course   | 39    |
+      | Dessert 1     | Last course   | 39    |
 
-  And I am on the landing page
+    And I am on the landing page
 
   Scenario: Can see different products
     Then I should see "Greta's Top Picks"

@@ -1,8 +1,13 @@
 <h1>Greta's Top Picks</h1>
-<% @products.each do |product| %>
-  <%= product.name %>
-  <%= product.desc %>
-  <%= product.price %>
+
+<ul>
+  <% @products.each do |product| %>
+    <li>
+    <%= product.name %><br />
+    <%= product.description %><br />
+    <%= product.price %>
+    </li>
   <% end %>
+</ul>
 
 
