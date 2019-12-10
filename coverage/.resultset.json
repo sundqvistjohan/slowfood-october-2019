@@ -1,18 +1,32 @@
 {
   "Cucumber Features": {
     "coverage": {
-      "/Users/suraj/craftAcademy/slowfood/slowfood-october-2019/app/mailers/application_mailer.rb": [
+      "/Users/tiffanyhutton/Craft_Projects/slowfood-october-2019/app/controllers/application_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/tiffanyhutton/Craft_Projects/slowfood-october-2019/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/tiffanyhutton/Craft_Projects/slowfood-october-2019/app/controllers/products_controller.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/tiffanyhutton/Craft_Projects/slowfood-october-2019/app/mailers/application_mailer.rb": [
         0,
         0,
         0,
         0
       ],
-      "/Users/suraj/craftAcademy/slowfood/slowfood-october-2019/app/models/application_record.rb": [
+      "/Users/tiffanyhutton/Craft_Projects/slowfood-october-2019/app/models/application_record.rb": [
         0,
         0,
         0
       ],
-      "/Users/suraj/craftAcademy/slowfood/slowfood-october-2019/app/jobs/application_job.rb": [
+      "/Users/tiffanyhutton/Craft_Projects/slowfood-october-2019/app/jobs/application_job.rb": [
         0,
         null,
         null,
@@ -21,27 +35,19 @@
         null,
         0
       ],
-      "/Users/suraj/craftAcademy/slowfood/slowfood-october-2019/app/controllers/application_controller.rb": [
-        0,
-        0
-      ],
-      "/Users/suraj/craftAcademy/slowfood/slowfood-october-2019/app/helpers/application_helper.rb": [
-        0,
-        0
-      ],
-      "/Users/suraj/craftAcademy/slowfood/slowfood-october-2019/app/channels/application_cable/connection.rb": [
+      "/Users/tiffanyhutton/Craft_Projects/slowfood-october-2019/app/channels/application_cable/connection.rb": [
         0,
         0,
         0,
         0
       ],
-      "/Users/suraj/craftAcademy/slowfood/slowfood-october-2019/app/channels/application_cable/channel.rb": [
+      "/Users/tiffanyhutton/Craft_Projects/slowfood-october-2019/app/channels/application_cable/channel.rb": [
         0,
         0,
         0,
         0
       ]
     },
-    "timestamp": 1575972293
+    "timestamp": 1575975552
   }
 }
