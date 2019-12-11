@@ -13,7 +13,7 @@ Feature: User can see products in different categories
 
   Scenario: Can see products in different categories
     Then I should see "Greta's Top Picks"
-    And I should see "Starters"
+    And I should see "starter"
     And I should see "Starter 1"
     And I should see "First course"
     And I should see "99"
