@@ -15,3 +15,9 @@ RSpec.describe Product, type: :model do
     it { is_expected.to validate_presence_of :price } 
   end
 end
+
+describe 'Factory' do
+  it 'should have valid Factory' do
+    expect(create(:product)).to be_valid 
+  end
+end
