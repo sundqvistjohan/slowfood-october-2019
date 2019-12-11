@@ -5,8 +5,7 @@ Feature: User can sign up
   I would like to be able to register an account
 
     Background:
-        Given I am on the landing page
-        And I click on "Signup"
+        Given I am on the signup page
 
 Scenario: Successfully creates an account
         When I fill in "Email" with "User1@mail.com"
