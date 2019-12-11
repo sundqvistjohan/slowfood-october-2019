@@ -7,7 +7,7 @@ Feature: User can sign up
     Background:
         Given I am on the signup page
 
-Scenario: Successfully creates an account
+    Scenario: Successfully creates an account
         When I fill in "Email" with "User1@mail.com"
         And I fill in "Password" with "Password"
         And I fill in "Password confirmation" with "Password"
