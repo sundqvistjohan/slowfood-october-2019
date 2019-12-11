@@ -20,10 +20,3 @@ Feature: User can see products
     And I should see "99"
     And I should see "Main Course 1"
     And I should see "Dessert 1"
-
-
-
-
-
-
-
