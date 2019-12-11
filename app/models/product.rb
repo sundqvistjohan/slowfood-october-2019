@@ -1,5 +1,3 @@
 class Product < ApplicationRecord
-    validates_presence_of :name, :price
-
-    belongs_to :category
+  validates_presence_of :category, :name, :price
 end
