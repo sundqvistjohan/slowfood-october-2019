@@ -13,4 +13,4 @@ Scenario: Successfully creates an account
         And I fill in "Password confirmation" with "Password"
         And I click on "Sign up"
         Then I should be on the landing page
-        And I should see "You are signed in"
+        And I should see "Logout"
