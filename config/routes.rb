@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-    root controller: :products, action: :index
+  devise_for :users
+  root controller: :products, action: :index
 end
