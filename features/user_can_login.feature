@@ -17,3 +17,15 @@ Scenario: Successfully creates a login
         And I click on "Log in"
         Then I should be on the landing page
         And I should see "Logout"
+
+Scenario:Unsuccessful login(Sad path-wrong email)
+        When I fill in "Email" with "wrongemail@user.com"
+        And I fill in "Password" with "password"
+        And I click on "Log in"
+        Then I should see "Invalid Email or password"      
+
+Scenario:Unsuccessful login(Sad path-wrong password)
+        When I fill in "Email" with "user@user.com"
+        And I fill in "Password" with "wrongpassword"
+        And I click on "Log in"
+        Then I should see "Invalid Email or password"          
