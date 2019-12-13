@@ -2,6 +2,1050 @@ Given("I am on the landing page") do
   visit root_path  
 end
 
-Given("I click on {string}") do |string|
-  click_on string
+Given("I click on {string}") do |element|
+  click_on element
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
+
+Given("I am on the signup page") do
+  visit new_user_registration_path
+end
+
+When("I fill in {string} with {string}") do |input, content|
+  fill_in input, with: content
+end
+
+Given("I am on the login page") do
+  visit new_user_session_path
 end
