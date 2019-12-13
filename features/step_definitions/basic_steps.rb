@@ -15,5 +15,5 @@ When("I fill in {string} with {string}") do |input, content|
 end
 
 Given("I am on the login page") do
- visit new_user_session_path
+  visit new_user_session_path
 end
