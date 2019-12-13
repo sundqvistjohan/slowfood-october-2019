@@ -13,3 +13,7 @@ end
 When("I fill in {string} with {string}") do |input, content|
   fill_in input, with: content
 end
+
+Given("I am on the login page") do
+  visit new_user_session_path
+end
