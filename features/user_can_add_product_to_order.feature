@@ -22,3 +22,12 @@ Feature: Visitor can add products to the cart
     And I click on "Add to order" for "Main Course 1"
     Then I should see "Main Course 1 was added to your order"
     And I should see "Your order contains 1 item"
+  
+  Scenario: User revisits the service to purchase products
+    Given "hungry_guy@mail.com" has ordered products in the past
+    And He is on the landing page
+    And he clicks on "Add to order" for "Dessert 1"
+    And he clicks on "Add to order" for "Starter 1"
+    And he should see "Your order contains 2 items"
+    And he should have 2 orders
+
