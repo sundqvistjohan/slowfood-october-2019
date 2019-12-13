@@ -5,3 +5,9 @@ Given("the following products exist:") do |table|
     create(:product, product_attributes.merge(category: category))
   end
 end
+
+Given("the following users exist") do |table|
+  table.hashes.each do |user_attributes|
+    create(:user, user_attributes)
+  end
+end
