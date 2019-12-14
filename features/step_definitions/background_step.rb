@@ -13,3 +13,12 @@ Given('the following user(s) exist(:)') do |table|
     create(:user, user_attributes)
   end
 end
+
+Given("the following product has been added to order") do |table|
+  table.hashes.each do |order_attribute|
+  order = @user.orders.create
+  product = Product.find_by(name: order_attribute['name'])
+  order.add(product, product.price)
+  end
+end
+
