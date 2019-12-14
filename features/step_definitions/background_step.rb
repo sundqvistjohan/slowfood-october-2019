@@ -13,3 +13,9 @@ Given('the following user(s) exist(:)') do |table|
     create(:user, user_attributes)
   end
 end
+
+Given('the following owner exist(:)') do |table|
+  table.hashes.each do |user_attributes|
+    create(:owner, user_attributes)
+  end
+end
