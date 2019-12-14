@@ -15,9 +15,9 @@ Given('the following user(s) exist(:)') do |table|
 end
 
 Given("the following product has been added to order") do |table|
-  table.hashes.each do |order_attribute|
+  table.hashes.each do |order_attributes|
   order = @user.orders.create
-  product = Product.find_by(name: order_attribute['name'])
+  product = Product.find_by(name: order_attributes['name'])
   order.add(product, product.price)
   end
 end

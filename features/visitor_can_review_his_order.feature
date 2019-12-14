@@ -17,8 +17,8 @@ Feature: Visitor can review his order
     And I'm logged in as "hungry_guy@mail.com"
 
     And the following product has been added to order
-      | name      | price |
-      | Starter 1 | 99    |    
+      | name      |
+      | Starter 1 |  
 
   Scenario: Visitor can add products to cart
     Given I am on the landing page
