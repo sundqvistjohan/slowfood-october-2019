@@ -14,6 +14,9 @@ When("I fill in {string} with {string}") do |input, content|
   fill_in input, with: content
 end
 
-Given("I am on the login page") do
-  visit new_user_session_path
+Given("I click on {string} for {string}") do |element, product_name|
+  product = Product.find_by(name: product_name)
+  within("#product_#{product.id}") do
+    click_on element
+  end
 end
