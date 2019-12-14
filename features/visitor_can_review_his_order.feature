@@ -25,4 +25,6 @@ Feature: Visitor can review his order
   Scenario: Visitor can review his order
     When I click on "Review"
     Then I should see "Starter 1"
+    And I should see "Total Price:"
+    And I should see "99"
     
