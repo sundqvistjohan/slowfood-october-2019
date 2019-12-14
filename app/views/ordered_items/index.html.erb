@@ -1,9 +1,10 @@
-<h1>Your picks</h1>
-<%= @ordered_items.each do |item| %>
-  <%= item.item.name %>
-  <%= item.item.description %>
-  <%= item.item.price %>
-  <% @totalprice += item.item.price %>
-<% end %>
-<%= @totalprice %>
-
+<h2>Your picks</h2>
+  <% @ordered_items.each do |item| %>
+    <div class="addedFoodDiv"> 
+    <%= item.item.name %>
+    <%= item.item.description %>
+    <%= item.item.price %> 
+    </div>
+    <% @totalprice += item.item.price %>
+  <% end %>
+<div class="totalprice"><%= @totalprice %></div>
