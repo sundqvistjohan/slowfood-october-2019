@@ -3,11 +3,10 @@
   <h3><%= category.name %></h3>
   <% category.products.each do |product| %>
     <ul>
-      <li id="product_<%= product.id %>"><%= product.name %>
+      <li id=<%= dom_id(product) %>><%= product.name %>
         <ul>
           <li><%= product.description %></li>
           <li><%= product.price %> SEK</li>
-          <!--button> Add to order </button-->
           <%= button_to 'Add to order', order_items_path(id: product.id) %>
         </ul>
       </li>
