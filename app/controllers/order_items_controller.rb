@@ -14,4 +14,9 @@ class OrderItemsController < ApplicationController
       redirect_to root_path, error: 'Something went wrong'
     end
   end
+
+  def show
+    @order_items = current_user.orders.last.shopping_cart_items
+    @totalprice = 0
+  end
 end

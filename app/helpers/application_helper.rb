@@ -5,4 +5,12 @@ module ApplicationHelper
       "Your order contains #{item_count} #{'item'.pluralize(item_count)}"
     end
   end
+
+  def order_items_id
+    if current_user.orders.empty?
+      "0"
+    else
+      current_user.orders.ids
+    end
+  end
 end

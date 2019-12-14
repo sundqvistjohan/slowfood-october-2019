@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  resources :order_items, only: [:create]
+  resources :order_items, only: [:create, :show]
   devise_for :users
   root controller: :products, action: :index
-  resources :ordered_items
 end
