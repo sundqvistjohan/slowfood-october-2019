@@ -20,9 +20,8 @@ Feature: Visitor can review his order
       | name      |
       | Starter 1 |  
 
-    And I am on the landing page
-
-  Scenario: Visitor can review his order
-    When I click on "Review"
+  Scenario: Visitor can add products to cart
+    Given I am on the landing page
+    And I click on "Your order"
     Then I should see "Starter 1"
     
