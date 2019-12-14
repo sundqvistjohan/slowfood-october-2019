@@ -1,4 +1,4 @@
-Feature: User can log in
+Feature: Owner can log in
   As a restaurant owner,
   In order to make updates to my restaurant page
   I would like to be able to log in and access my restaurant page
@@ -9,7 +9,7 @@ Feature: User can log in
       | greta@greta.com | password |
     And I am on the owner sign-in page
 
-  Scenario: Successfully creates a login
+  Scenario: Successfully performs a login
     And I fill in "Email" with "greta@greta.com"
     And I fill in "Password" with "password"
     And I click on "Log in"
