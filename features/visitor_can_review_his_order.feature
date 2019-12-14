@@ -23,7 +23,7 @@ Feature: Visitor can review his order
     And I am on the landing page
 
   Scenario: Visitor can review his order
-    When I click on "Review"
+    When I click on "Review your order:"
     Then I should see "Starter 1"
     And I should see "Total Price:"
     And I should see "99"
