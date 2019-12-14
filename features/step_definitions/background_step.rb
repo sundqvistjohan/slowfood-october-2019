@@ -22,3 +22,8 @@ Given("the following product has been added to order") do |table|
   end
 end
 
+Given('the following owner exist(:)') do |table|
+  table.hashes.each do |user_attributes|
+    create(:owner, user_attributes)
+  end
+end
