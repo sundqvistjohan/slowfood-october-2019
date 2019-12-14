@@ -1,3 +1,7 @@
+<% if owner_signed_in? %>
+  <h3>Welcome Greta!</h3>
+<% end %>
+
 <h1>Greta's Top Picks</h1>
 <% @categories.each do |category| %>
   <h3><%= category.name %></h3>

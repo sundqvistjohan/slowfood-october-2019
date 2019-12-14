@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :owners
   resources :order_items, only: [:create]
-  devise_for :users
+  devise_for :users, :owners
   root controller: :products, action: :index
 end

@@ -32,3 +32,7 @@ end
 Then('stop') do
   binding.pry
 end
+
+Given('(I/He/She) (am/is) on the owner sign-in page') do
+  visit new_owner_session_path
+end
