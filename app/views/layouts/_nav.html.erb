@@ -18,9 +18,10 @@
     </div>
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul class="navbar-nav ml-auto">
-          <% unless current_user.orders.empty? %>
-            <li class="nav-link"><%= link_to 'Review your order:', order_item_path(current_user.orders.ids) %></li>
-            <li class="nav-link"><%= order_items_count %></li>
+          <% if user_signed_in? %>
+            <% unless current_user.orders.empty? %>
+              <li class="nav-link"><%= link_to order_items_count, order_item_path(current_user.orders.ids) %></li>
+            <% end %>
           <% end %>
           <li class="nav-link"><%= link_to "Owner Log In", new_owner_session_path %><li>
         </ul>
