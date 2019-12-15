@@ -1,0 +1,11 @@
+<h2>Your picks</h2>
+  <% @order_items.each do |order_item| %>
+    <div class="addedFoodDiv"> 
+    <%= order_item.item.name %>
+    <%= order_item.item.description %>
+    <%= order_item.item.price %> 
+    </div>
+  <% end %>
+<div class="totalprice">
+  <h4> Total Price: <%= number_to_currency @order.subtotal, unit: "kr", separator: ",", format: "%n %u" %></h4>
+</div>
