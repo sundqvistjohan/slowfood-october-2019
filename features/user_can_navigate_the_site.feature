@@ -10,4 +10,4 @@ Feature: User can navigate the site
     Then I should see "Signup"
     And I should see "Login"
     And I should see "Menu"
-    And I should see "GRETA'S GREENS"
+    And I should see "Greta's Greens"

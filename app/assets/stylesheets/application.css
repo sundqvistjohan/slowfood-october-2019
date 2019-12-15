@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+
+img {
+  margin-top: 5em;
+}
+
+.container {
+  margin-left: 1%;
+}
+
+a {
+  color: white;
+  font-size: large;
+}
+
+#green {
+  color: rgb(5, 197, 5);
+}
