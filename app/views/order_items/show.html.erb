@@ -3,7 +3,8 @@
     <div class="addedFoodDiv"> 
     <%= order_item.item.name %>
     <%= order_item.item.description %>
-    <%= order_item.item.price %> 
+    Quantity: <%= order_item.quantity %>
+    Price: <%= order_item.item.price %> kr
     </div>
   <% end %>
 <div class="totalprice">
