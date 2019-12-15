@@ -17,6 +17,6 @@ class OrderItemsController < ApplicationController
 
   def show
     @order_items = current_user.orders.last.shopping_cart_items
-    @totalprice = 0
+    @total_price = 0
   end
 end
