@@ -16,9 +16,9 @@ end
 
 Given("the following product has been added to order") do |table|
   table.hashes.each do |order_attributes|
-    @order = @user.orders.create
+    order = @user.orders.create
     product = Product.find_by(name: order_attributes['name'])
-    @order.add(product, product.price)
+    order.add(product, product.price)
   end
 end
 
